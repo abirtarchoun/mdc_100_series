@@ -58,10 +58,27 @@ class _LoginPageState extends State<LoginPage> {
               obscureText: true,
             ),
             // TODO: Add button bar (101)
-            const ButtonBar(
+             ButtonBar(
               // TODO: Add a beveled rectangular border to CANCEL (103)
               children: <Widget>[
+
                 // TODO: Add buttons (101)
+                // TODO: Add buttons (101)
+                TextButton(
+                  child: const Text('CANCEL'),
+                  onPressed: () {
+                  },
+                ),
+
+                // TODO: Add an elevation to NEXT (103)
+                // TODO: Add a beveled rectangular border to NEXT (103)
+                ElevatedButton(
+                  child: Text('NEXT'),
+                  onPressed: () {
+                  },
+                ),
+
+
               ],
             ),
 
